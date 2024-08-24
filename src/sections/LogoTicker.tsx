@@ -1,3 +1,7 @@
 export const LogoTicker = () => {
-  return null;
+  return (
+    <>
+    Logo ticker
+    </>
+  )
 };
