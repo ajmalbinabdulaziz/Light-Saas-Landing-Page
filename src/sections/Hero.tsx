@@ -4,7 +4,7 @@ import CogImage from "@/assets/cog.png"
 import Image from "next/image";
 import CylinderImage from "@/assets/cylinder.png"
 import noodleImage from "@/assets/noodle.png"
-import { motion, useScroll, useTransform, useMotionValueEvent } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from "react";
 
 
@@ -15,11 +15,11 @@ export const Hero = () => {
     target: heroRef,
     offset: ["start end", "end start"]
   })
-  const translateY = useTransform(scrollYProgress, [0, 1], [75, -75])
+  const translateY = useTransform(scrollYProgress, [0, 1], [150, -150])
 
 
   return(
-    <section className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip">
+    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip">
 
       <div className="container">
         <div className="md:flex items-center">
