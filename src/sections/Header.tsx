@@ -2,16 +2,30 @@ import ArrowRight from '@/assets/arrow-right.svg'
 import Logo from "@/assets/logosaas.png"
 import Image from 'next/image';
 import MenuIcon from '@/assets/menu.svg'
+import SocialX from "@/assets/social-x.svg"
+import SocialInsta from "@/assets/social-insta.svg"
+import SocialLinkedin from "@/assets/social-linkedin.svg"
+import SocialPin from "@/assets/social-pin.svg"
+import SocialYoutube from "@/assets/social-youtube.svg"
+
+
 
 export const Header = () => {
   return (
     <header className='sticky top-0 backdrop-blur-sm z-20'>
 
-      <div className="flex justify-center items-center py-3 bg-black text-white text-sm">
-        <div className='inline-flex gap-1 items-center'>
-          <p>Get started for free</p>
-          <ArrowRight className="h-4 w-4 inline-flex justify-center items-center" />
+      <div className="flex justify-center items-center py-7 text-black text-sm bg-[radial-gradient(ellipse_100%_100%_at_bottom_left,#75eb2d,#f0feea_100%)]">
+        {/* <div className='inline-flex gap-1 items-center'> */}
+          {/* <p>Get started for free</p> */}
+          <div className="flex justify-center gap-6">
+          <SocialX />
+          <SocialInsta />
+          <SocialLinkedin />
+          <SocialPin />
+          <SocialYoutube />
         </div>
+          {/* <ArrowRight className="h-4 w-4 inline-flex justify-center items-center" /> */}
+        {/* </div> */}
       </div>
 
       {/* Navbar  */}
@@ -30,7 +44,7 @@ export const Header = () => {
               {/* <a href="">Destinations</a> */}
               <a href="">Testimonials</a>
               <a href="">Contact</a>
-              <button className='bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight'>
+              <button className='bg-[#0e2401] text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight'>
                 Sign Up</button>
             </nav>
           </div>

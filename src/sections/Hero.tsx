@@ -19,26 +19,26 @@ export const Hero = () => {
 
 
   return(
-    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] overflow-x-clip">
+    <section ref={heroRef} className="pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_150%_50%_at_bottom_left,#75eb2d,#f0feea_100%)] overflow-x-clip">
 
       <div className="container">
         <div className="md:flex items-center">
 
             <div className="md:w-[478px]">
                 <div className="tag">
-                  Version 2.0 is Header
+                  Travel around.
                 </div>
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
-                  Pathway to productivity
+                <h1 className="text-5xl md:text-5xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#1c4205] text-transparent bg-clip-text mt-6">
+                  Welcome to Ahlan Hind!
                 </h1>
-                <p className="text-xl text-[#010D3E] tracking-tight mt-6">
-                  Celebrate the joy of accomplishment with an app designed to track your progress,
-                  motivate your efforts, and celebrate your successes.
+                <p className="text-xl text-[#1c4205] tracking-tight mt-6">
+                Hospitality is one of the most treasured values of Indian culture and lies at the heart of our desire to open our doors to 
+                international travellers..
                 </p>
                 <div className="flex gap-1 items-center mt-[30px]">
-                  <button className='btn btn-primary'>Get for free</button>
+                  <button className='btn btn-primary'>Sign Up</button>
                   <button className='btn btn-text gap-1'>
-                    <span>Learn More</span>
+                    <span>Read More</span>
                     <ArrowIcon className="h-5 w-5" />
                   </button>
                 </div>

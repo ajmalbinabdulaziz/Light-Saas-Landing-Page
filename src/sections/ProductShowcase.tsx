@@ -24,10 +24,10 @@ export const ProductShowcase = () => {
           <div className="flex justify-center">
             <div className="tag">Boost your productivity</div>
           </div>
-            <h2 className="section-title mt-5">
+            <h2 className="section-title mt-5 bg-gradient-to-b from-black to-[#1c4205] text-transparent">
               A more effective way to track progress
             </h2>
-            <p className="section-description mt-5">
+            <p className="section-description mt-5 text-[#1c4205]">
               Effortlessly turn your ideas into a fully functional, responsive. Saas
               website in just minutes with this template.
             </p>
